@@ -4,3 +4,5 @@ import kagglehub
 path = kagglehub.dataset_download("sobhanmoosavi/us-accidents")
 
 print("Path to dataset files:", path)
+
+Path to dataset files: /root/.cache/kagglehub/datasets/sobhanmoosavi/us-accidents/versions/13
