@@ -21,3 +21,9 @@ if st.button("Predict Severity"):
     input_data = preprocess_input(temp, humidity, visibility, wind_speed, weather_cond, encoder)
     prediction = model.predict(input_data)
     st.subheader(f"Predicted Severity: {prediction[0]}")
+
+from model import load_and_train_model
+
+# This will train the model and save model.joblib and encoder.joblib
+load_and_train_model()
+
